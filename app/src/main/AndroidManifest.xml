@@ -18,5 +18,8 @@
             </intent-filter>
         </activity>
 
+   <service
+    android:name=".ScannerService"
+    android:exported="false" /> 
     </application>
 </manifest>
